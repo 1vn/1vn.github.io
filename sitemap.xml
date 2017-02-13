@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://www.ivanzhang.ca/</loc>
+    <lastmod>2016-10-28T14:05:58-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ivanzhang.ca/about/</loc>
+    <lastmod>2016-10-28T14:05:58-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ivanzhang.ca/opensource/</loc>
+    <lastmod>2016-10-28T14:05:58-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ivanzhang.ca/work/xentraffic/</loc>
+  </url>
+  
+</urlset>

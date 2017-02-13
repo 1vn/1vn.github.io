@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+	<head>
+    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="theme-color" content="#5F5F5D">
+		<meta name="msapplication-navbutton-color" content="#5F5F5D">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#5F5F5D">
+		<meta name="google-site-verification" content="Gd2FDHAL2TdZ0QVOucLSzp1e2FVtv2N2rv0j42eYpxM" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	    <title>Ivan Zhang - XenTraffic - UofT Hacks 2017</title>
+	    <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/img/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/img/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/img/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/img/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/img/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/img/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/img/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="/img/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+		<link rel="manifest" href="/img/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/img/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+	    <link rel="stylesheet" type="text/css" href="/css/style.css">
+	    <link rel="stylesheet" type="text/css" href="/css/fontello.css">
+	</head>
+	<body>
+	    <div id="page">
+<div id="nav">
+	<ul>
+		<li>
+			<a href="/" id="homePage"></a>
+		</li>
+		<li>	
+			<a href="/work">Work</a>
+		</li>
+		<li>
+			<a href="/opensource">Open Source</a>			
+		</li>
+		<li>
+			<a href="/about">About</a>			
+		</li>
+		<li>
+			<a href="/resume.pdf">Resume</a>			
+		</li>
+	</ul>
+	<div class="clear"></div>
+</div>
+<div class="cont">
+	<div id="xenTrafficPage">
+    <div class="demo">
+        &nbsp;
+        <a href="http://www.xentraffic.com" target=_blank rel=nofollow>
+            <div id="xenTraffic"></div>
+        </a>
+    </div>
+    <div class="desc">
+        <div class="title">         
+            <h1>XenTraffic</h1>
+            <p><strong>Designed by Pedja Ristic and Samuel Yee, built by Ivan Zhang</strong></p>
+        </div>
+        <div class="article">
+            <p>
+                For UofT Hacks 2017, my team and I built a visualization which serves primarily as a tool to convey web traffic to non-technical members on your team. We went from ideation to shipping a fully functioning demo without 12 hours.
+            </p>
+            <p>
+                The idea is that anyone on your team should be able to understand your web traffic at a glance, without having to scour through complicated graphs and dashboards. It is intuitive to see a highway full of cars and understand that there is a lot of traffic.
+            </p>
+            <p>
+                Under the hood it is a React component which takes in a level value (1-3). We made no assumptions about your infrastructure, so it's up to you to define what high, medium, and low traffic means for your servers. Simply change the level prop, and the activity on the roads will update visually.
+            </p>
+            <p>
+                The cars spawn in lanes randomly, but they won't spawn in the same lane twice. I also attempted to combat visual latency by deleting references to cars (via deleting array value) after a short amount of time are off the screen to mark the addresses for the javascript garbage collector.
+            </p>
+            <p>
+                Check out the demo project I set up <a href="https://www.github.com/1vn/xen-traffic-demo" target=_blank>here</a>. In this example I wrote a mock Go server to give simulated traffic level values.
+            </p>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <script src="/js/xen.bundle.js" type="text/javascript" charset="utf-8"></script>  
+</div>
+	
+</div>
+		</div> 
+	</body>
+</html>

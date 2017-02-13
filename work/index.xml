@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Works on Ivan Zhang</title>
+    <link>https://www.ivanzhang.ca/work/</link>
+    <description>Recent content in Works on Ivan Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.ivanzhang.ca/work/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>XenTraffic - UofT Hacks 2017</title>
+      <link>https://www.ivanzhang.ca/work/xentraffic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivanzhang.ca/work/xentraffic/</guid>
+      <description>&lt;div id=&#34;xenTrafficPage&#34;&gt;
+    &lt;div class=&#34;demo&#34;&gt;
+        &amp;nbsp;
+        &lt;a href=&#34;http://www.xentraffic.com&#34; target=_blank rel=nofollow&gt;
+            &lt;div id=&#34;xenTraffic&#34;&gt;&lt;/div&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;desc&#34;&gt;
+        &lt;div class=&#34;title&#34;&gt;         
+            &lt;h1&gt;XenTraffic&lt;/h1&gt;
+            &lt;p&gt;&lt;strong&gt;Designed by Pedja Ristic and Samuel Yee, built by Ivan Zhang&lt;/strong&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;article&#34;&gt;
+            &lt;p&gt;
+                For UofT Hacks 2017, my team and I built a visualization which serves primarily as a tool to convey web traffic to non-technical members on your team. We went from ideation to shipping a fully functioning demo without 12 hours.
+            &lt;/p&gt;
+            &lt;p&gt;
+                The idea is that anyone on your team should be able to understand your web traffic at a glance, without having to scour through complicated graphs and dashboards. It is intuitive to see a highway full of cars and understand that there is a lot of traffic.
+            &lt;/p&gt;
+            &lt;p&gt;
+                Under the hood it is a React component which takes in a level value (1-3). We made no assumptions about your infrastructure, so it&#39;s up to you to define what high, medium, and low traffic means for your servers. Simply change the level prop, and the activity on the roads will update visually.
+            &lt;/p&gt;
+            &lt;p&gt;
+                The cars spawn in lanes randomly, but they won&#39;t spawn in the same lane twice. I also attempted to combat visual latency by deleting references to cars (via deleting array value) after a short amount of time are off the screen to mark the addresses for the javascript garbage collector.
+            &lt;/p&gt;
+            &lt;p&gt;
+                Check out the demo project I set up &lt;a href=&#34;https://www.github.com/1vn/xen-traffic-demo&#34; target=_blank&gt;here&lt;/a&gt;. In this example I wrote a mock Go server to give simulated traffic level values.
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+    &lt;script src=&#34;https://www.ivanzhang.ca/js/xen.bundle.js&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;  
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
